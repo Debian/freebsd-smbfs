@@ -1,3 +1,9 @@
+freebsd-smbfs (9.0~svn227117-3) UNRELEASED; urgency=low
+
+  * Switch to canonical Vcs URLs.
+
+ -- Guillem Jover <guillem@debian.org>  Mon, 29 Jul 2013 12:31:38 +0200
+
 freebsd-smbfs (9.0~svn227117-2) unstable; urgency=low
 
   * Provide "smbfs".

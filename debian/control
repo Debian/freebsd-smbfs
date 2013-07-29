@@ -8,8 +8,8 @@ Build-Depends: debhelper (>= 7.0.50~),
  kfreebsd-kernel-headers (>= 0.59),
  libkiconv-dev,
  libbsd-dev,
-Vcs-Browser: http://svn.debian.org/wsvn/glibc-bsd/trunk/freebsd-smbfs/
-Vcs-Svn: svn://svn.debian.org/glibc-bsd/trunk/freebsd-smbfs/
+Vcs-Browser: http://anonscm.debian.org/viewvc/glibc-bsd/trunk/freebsd-smbfs/
+Vcs-Svn: svn://anonscm.debian.org/glibc-bsd/trunk/freebsd-smbfs/
 Standards-Version: 3.9.2
 
 Package: freebsd-smbfs
