@@ -5,6 +5,8 @@ freebsd-smbfs (9.0~svn227117-3) UNRELEASED; urgency=low
 
   [ Robert Millan ]
   * Fetch source code securely (https) in get-orig-source.
+  * Remove obsolete getvfsbyname.diff (getvfsbyname() is now provided by
+    glibc).
 
  -- Guillem Jover <guillem@debian.org>  Mon, 29 Jul 2013 12:31:38 +0200
 
