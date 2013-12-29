@@ -1,4 +1,4 @@
-freebsd-smbfs (9.0~svn227117-3) UNRELEASED; urgency=low
+freebsd-smbfs (9.0~svn227117-3) unstable; urgency=low
 
   [ Guillem Jover ]
   * Switch to canonical Vcs URLs.
