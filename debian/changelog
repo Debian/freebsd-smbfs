@@ -7,8 +7,9 @@ freebsd-smbfs (9.0~svn227117-3) UNRELEASED; urgency=low
   * Fetch source code securely (https) in get-orig-source.
   * Remove obsolete getvfsbyname.diff (getvfsbyname() is now provided by
     glibc).
+  * Correctly setup BSD version of MAKEFLAGS to support parallel builds.
 
- -- Guillem Jover <guillem@debian.org>  Mon, 29 Jul 2013 12:31:38 +0200
+ -- Robert Millan <rmh@debian.org>  Sun, 29 Dec 2013 21:00:51 +0100
 
 freebsd-smbfs (9.0~svn227117-2) unstable; urgency=low
 
