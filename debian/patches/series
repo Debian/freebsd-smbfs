@@ -1,6 +1,7 @@
-smbutil.diff
 af_netbios.diff
 makefile.diff
 config_file.diff
 optreset.diff
 uid_format.diff
+sys_mount.diff
+strings.diff

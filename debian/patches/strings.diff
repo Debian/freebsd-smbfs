@@ -1,0 +1,15 @@
+From: Steven Chamberlain <steven@pyro.eu.org
+Subject: fix implicit declaration of strcmp due to possible typo
+Forwarded: no
+
+--- a/contrib/smbfs/smbutil/print.c
++++ b/contrib/smbfs/smbutil/print.c
+@@ -42,7 +42,7 @@
+ #include <fcntl.h>
+ #include <stdio.h>
+ #include <unistd.h>
+-#include <strings.h>
++#include <string.h>
+ #include <stdlib.h>
+ #include <sysexits.h>
+ 

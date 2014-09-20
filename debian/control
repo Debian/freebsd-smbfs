@@ -5,7 +5,7 @@ Maintainer: GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>
 Uploaders: Robert Millan <rmh@debian.org>
 Build-Depends: debhelper (>= 7.0.50~),
  freebsd-buildutils,
- kfreebsd-kernel-headers (>= 0.59),
+ kfreebsd-kernel-headers (>= 10.1~),
  libkiconv-dev,
  libbsd-dev,
  libc0.1-dev (>= 2.13-8),

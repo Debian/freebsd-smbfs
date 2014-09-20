@@ -1,3 +1,15 @@
+freebsd-smbfs (10.1~svn271306-1) UNRELEASED; urgency=medium
+
+  [ Steven Chamberlain ]
+  * New upstream snapshot of 10.1-PRERELEASE
+  * Build-Depends on current kfreebsd-kernel-headers
+  * Remove patch smbutil.diff applied upstream:
+  * makefile.dif: refresh patch, drop unnecessary -ldl from libsmb
+  * strings.diff: new patch;  fix implicit declaration of strcmp due to
+    possible typo
+
+ -- GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>  Sat, 20 Sep 2014 21:16:22 +0100
+
 freebsd-smbfs (9.0~svn227117-3) unstable; urgency=low
 
   [ Guillem Jover ]

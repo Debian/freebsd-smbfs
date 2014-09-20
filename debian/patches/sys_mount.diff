@@ -1,0 +1,13 @@
+--- a/sbin/mount/mntopts.h
++++ b/sbin/mount/mntopts.h
+@@ -74,6 +74,10 @@
+ 	MOPT_RW,							\
+ 	MOPT_AUTO
+ 
++#ifndef MNT_AUTOMOUNTED
++#define	MNT_AUTOMOUNTED	0x0000000200000000ULL	/* mounted by automountd(8) */
++#endif
++
+ /* Standard options which all mounts can understand. */
+ #define MOPT_STDOPTS							\
+ 	MOPT_USERQUOTA,							\
