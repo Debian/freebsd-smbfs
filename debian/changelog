@@ -4,7 +4,7 @@ freebsd-smbfs (10.1~svn271306-1) UNRELEASED; urgency=medium
   * New upstream snapshot of 10.1-PRERELEASE
   * Build-Depends on current kfreebsd-kernel-headers
   * Remove patch smbutil.diff applied upstream:
-  * makefile.dif: refresh patch, drop unnecessary -ldl
+  * makefile.diff: refresh patch, drop unnecessary -ldl
   * strings.diff: new patch;  fix implicit declaration of strcmp due to
     possible typo
 
