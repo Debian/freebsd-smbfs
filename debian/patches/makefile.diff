@@ -11,12 +11,8 @@
  
 --- a/usr.sbin/mount_smbfs/Makefile
 +++ b/usr.sbin/mount_smbfs/Makefile
-@@ -8,9 +8,11 @@
- CONTRIBDIR=	${.CURDIR}/../../contrib/smbfs
- CFLAGS+=	-DSMBFS -I${MOUNTDIR} -I${CONTRIBDIR}/include
- 
--LDADD=	-lsmb -lkiconv
-+LDADD=	-lsmb -lkiconv -ldl
+@@ -11,6 +11,8 @@
+ LDADD=	-lsmb -lkiconv
  DPADD=	${LIBSMB} ${LIBKICONV}
  
 +LDADD+=	-L../../lib/libsmb
