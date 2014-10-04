@@ -1,3 +1,9 @@
+freebsd-smbfs (10.1~svn272500-1) UNRELEASED; urgency=medium
+
+  * New upstream snapshot of 10.1 releng
+
+ -- Christoph Egger <christoph@debian.org>  Sat, 20 Sep 2014 18:19:34 -0700
+
 freebsd-smbfs (10.1~svn271306-1) experimental; urgency=medium
 
   [ Steven Chamberlain ]
