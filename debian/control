@@ -2,7 +2,9 @@ Source: freebsd-smbfs
 Section: otherosfs
 Priority: optional
 Maintainer: GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>
-Uploaders: Robert Millan <rmh@debian.org>
+Uploaders:
+ Robert Millan <rmh@debian.org>,
+ Steven Chamberlain <steven@pyro.eu.org>,
 Build-Depends: debhelper (>= 7.0.50~),
  freebsd-buildutils,
  kfreebsd-kernel-headers (>= 10.1~),
