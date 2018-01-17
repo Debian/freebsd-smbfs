@@ -40,7 +40,7 @@ SVN		:= https://svn0.us-west.freebsd.org/base/stable/$(major)
 
 SOURCE = freebsd-smbfs
 ORIGDIR = $(SOURCE)-$(tar_version)
-TARNAME = $(SOURCE)_$(tar_version).orig.tar.gz
+TARNAME = $(SOURCE)_$(tar_version).orig.tar.xz
 
 PATH := /usr/lib/freebsd:$(PATH)
 DESTDIR = $(CURDIR)/debian/tmp
@@ -62,7 +62,7 @@ get-orig-source:
 	; do \
 	    svn export --ignore-keywords $(SVN)/$$i -r $(svn_revision) $(ORIGDIR)/$$i ; \
 	done
-	tar --numeric-owner --owner 0 --group 0 -czf ../$(TARNAME) $(ORIGDIR)
+	tar --numeric-owner --owner 0 --group 0 -cJf ../$(TARNAME) $(ORIGDIR)
 	rm -rf $(ORIGDIR)
 
 build: build-arch build-indep
